@@ -1,5 +1,6 @@
 class Student():
     def __init__(self, name, grade, classes):
+        print("self.name = name")
         self.name = name
         self.grade = grade
         self.classes = classes
